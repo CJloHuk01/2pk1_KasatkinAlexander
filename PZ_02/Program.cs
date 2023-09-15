@@ -25,7 +25,11 @@ namespace PZ_02
                 t = y * s + Math.Sin(x) + y;
 
             v = 2 * y * x + 3 * y * s - s * t;
-            Console.WriteLine(v);
+            Console.WriteLine("y = " + y);
+            Console.WriteLine("x = " + x);
+            Console.WriteLine("s = " + s);
+            Console.WriteLine("t = " + t);
+            Console.WriteLine("v = " + v);
         }  
     }
 }
