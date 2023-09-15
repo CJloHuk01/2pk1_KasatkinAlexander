@@ -27,9 +27,9 @@ namespace PZ_02
             v = 2 * y * x + 3 * y * s - s * t;
             Console.WriteLine("y = " + y);
             Console.WriteLine("x = " + x);
-            Console.WriteLine("s = " + s);
-            Console.WriteLine("t = " + t);
-            Console.WriteLine("v = " + v);
+            Console.WriteLine("s = " + Math.Round(s, 2));
+            Console.WriteLine("t = " + Math.Round(t, 2));
+            Console.WriteLine("v = " + Math.Round(v, 2));
         }  
     }
 }
