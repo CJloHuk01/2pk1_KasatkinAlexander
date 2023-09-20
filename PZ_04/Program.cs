@@ -33,6 +33,7 @@
             //
             //
             Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("Задание 4");
             int b = 0;
             for(int p = -100; p <= 0; p++)
