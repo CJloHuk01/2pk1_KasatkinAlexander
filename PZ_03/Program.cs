@@ -4,13 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Висит груша нельзя скушать. Что это?");
          
-                var a = Console.ReadLine();
+                var age = Console.ReadLine();
 
-                switch (a)
+                switch (age)
                 {
-                    case "сдаюсь":
+                    case :
                         Console.WriteLine("Правильный ответ: лампочка");
                         break;
                     case "лампочка":
