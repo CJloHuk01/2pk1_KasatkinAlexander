@@ -9,7 +9,7 @@
 
                 switch (age)
                 {
-                    case :
+                case "сдаюсь":
                         Console.WriteLine("Правильный ответ: лампочка");
                         break;
                     case "лампочка":
