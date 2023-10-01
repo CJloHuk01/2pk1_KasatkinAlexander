@@ -13,7 +13,6 @@
                 for (int b = 0; b < i; b++)
                 {
                     array[a, b] = rnd.Next(-100, 100);
-
                 }
             }
             Console.WriteLine();
