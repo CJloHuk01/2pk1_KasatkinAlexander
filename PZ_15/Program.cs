@@ -10,6 +10,8 @@
             DirectoryInfo[] subDirs = dirInfo.GetDirectories();
             Array.Sort(subDirs, (x, y) =>
             {
+                //проверка на количество файлов в каталоге
+                //и сортировка 
                 long xSize = x.GetFiles(".", SearchOption.AllDirectories).Length;
                 long ySize = y.GetFiles(".", SearchOption.AllDirectories).Length;
                 return (xSize > ySize) ? -1 : 1;
@@ -18,7 +20,7 @@
             {
                 Console.WriteLine(subDirs[i].Name);
             }
-            Console.ReadKey();
+            
         }
     }
 }
